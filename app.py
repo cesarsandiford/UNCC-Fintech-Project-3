@@ -83,8 +83,7 @@ if st.button("Register Artwork"):
         artwork_name,
         artist_name,
         int(initial_appraisal_value),
-        artwork_uri,
-        st.balloons()
+        artwork_uri
     ).transact({'from': address, 'gas': 1000000})
     receipt = w3.eth.waitForTransactionReceipt(tx_hash)
     st.write("Transaction receipt mined:")
@@ -93,7 +92,6 @@ st.markdown("---")
 
 
 # Appraise Art
-
 st.markdown("## Appraise Artwork")
 tokens = contract.functions.totalSupply().call()
 token_id = st.selectbox("Choose an Art Token ID", list(range(tokens)))
