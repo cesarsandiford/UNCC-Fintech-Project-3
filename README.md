@@ -2,8 +2,6 @@
 
 Creation of a dApp for the artwork registry contract and appraisals.
 
-## Instructions
-
 ### 1. Deploy the Contract
 
 1. In the Remix IDE, `ArtRegistry.sol` smart contract was selected.
@@ -57,3 +55,14 @@ For the `SMART_CONTRACT_ADDRESS` value, I used the address of the deployed contr
 5. Run the application by using `streamlit run app.py`. Test the functionality of the dApp to make sure that it works as expected.
 
 ## Created by: Cesar Sandiford
+
+## References:
+
+Module 22.2.4 Appraising the Situation
+
+https://lottiefiles.com/
+
+https://www.youtube.com/watch?v=TXSOitGoINE
+
+https://github.com/andfanilo/streamlit-lottie
+
