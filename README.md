@@ -8,7 +8,7 @@ Creation of a dApp for the artwork registry contract and appraisals.
 
 1. In the Remix IDE, `ArtRegistry.sol` smart contract was selected.
 
-2. Launched a Quickstart blockchain with Ganache, and then used MetaMask and the Remix IDE to compiled and deployed the `ArtRegistry` contract.
+2. Launched a Quickstart blockchain with Ganache, and then used the private key of a wallet to import it to MetaMask and used the Remix IDE to compiled and deployed the `ArtRegistry` contract.
 
 
 ### 2. Prepare the Environment File
