@@ -40,11 +40,11 @@ For the `SMART_CONTRACT_ADDRESS` value, I used the address of the deployed contr
 
     * Display the transaction receipt on the webpage.
 
-3. In `app.py`, in the “Appraise Art” section, complete the following substeps:
+3. In `app.py`, in the “Appraise Art” section:
 
     * Use Web3.py to call the `newAppraisal` function of the contract to record a new appraisal when someone clicks the Appraise Artwork button. Use the first account, in `w3.eth.accounts[0]` for the transaction.
 
-4. In `app.py`, in the “Get Appraisals” section, complete the following substeps:
+4. In `app.py`, in the “Get Appraisals” section:
 
     * Create a Streamlit component that gets an artwork token ID from the user.
 
