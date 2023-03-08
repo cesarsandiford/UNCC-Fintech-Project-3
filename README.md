@@ -52,9 +52,15 @@ For the `SMART_CONTRACT_ADDRESS` value, I used the address of the deployed contr
 
     * Display all the entries from the event filter on the webpage.
 
-5. Run the application by using `streamlit run app.py`. Test the functionality of the dApp to make sure that it works as expected.
+5. Run the application by using `streamlit run app.py`.
+    
+    * Test functionality by typing relevant information in order to register your artwork and do an appraisal.
 
-## Created by: Cesar Sandiford
+## And the Artwork is successfully registered and appraised.
+
+## Created by: 
+
+Cesar Sandiford
 
 ## References:
 
