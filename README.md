@@ -58,11 +58,11 @@ For the `SMART_CONTRACT_ADDRESS` value, I used the address of the deployed contr
 
 ## References:
 
-Module 22.2.4 Appraising the Situation
+* Module 22.2.4 Appraising the Situation
 
-https://lottiefiles.com/
+* https://lottiefiles.com/
 
-https://www.youtube.com/watch?v=TXSOitGoINE
+* https://www.youtube.com/watch?v=TXSOitGoINE
 
-https://github.com/andfanilo/streamlit-lottie
+* https://github.com/andfanilo/streamlit-lottie
 
