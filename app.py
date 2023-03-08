@@ -16,7 +16,7 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
-lottie_marketplace = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_yohwtbpe.json")
+lottie_marketplace = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_1iCXQLskUr.json")
 
 st.title("Art Registry Appraisal System")
 st_lottie(
@@ -27,7 +27,7 @@ st_lottie(
     quality="medium",
     height=None,
     width=None,
-    key=None,
+    key=None
 )
 
 
