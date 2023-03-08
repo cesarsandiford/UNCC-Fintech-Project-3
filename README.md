@@ -24,9 +24,9 @@ For the `SMART_CONTRACT_ADDRESS` value, I used the address of the deployed contr
 
 2. In `app.py`, in the “Register New Artwork” section:
 
-    * Used Lottie Animation with the function: def load_lottieurl(url: str):
+    * Used Lottie Animation with the function: `def load_lottieurl(url: str)`:
     
-    * Have a url to pull from: lottie_marketplace = load_lottieurl
+    * Have a url to pull from: `lottie_marketplace = load_lottieurl`
 
     * Defined new Streamlit components to get the following data from the user:
 
