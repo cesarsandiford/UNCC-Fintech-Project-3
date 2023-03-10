@@ -1,3 +1,5 @@
+# Import Libraries
+
 import os
 import json
 from web3 import Web3
@@ -34,11 +36,10 @@ st_lottie(
 # Define and connect a new Web3 provider
 w3 = Web3(Web3.HTTPProvider(os.getenv("WEB3_PROVIDER_URI")))
 
-################################################################################
+
 # Contract Helper function:
 # 1. Loads the contract once using cache
 # 2. Connects to the contract using the contract address and ABI
-################################################################################
 
 
 @st.cache(allow_output_mutation=True)
@@ -109,9 +110,8 @@ if st.button("Appraise Artwork"):
     st.write(receipt)
 st.markdown("---")
 
-################################################################################
 # Get Appraisals
-################################################################################
+
 st.markdown("## Get the appraisal report history")
 art_token_id = st.number_input("Artwork ID", value=0, step=1)
 if st.button("Get Appraisal Reports"):
