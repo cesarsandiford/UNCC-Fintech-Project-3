@@ -8,12 +8,19 @@ Creation of a dApp for the artwork registry contract and appraisals.
 
 2. Launched a Quickstart blockchain with Ganache, and then used the private key of a wallet to import it to MetaMask and used the Remix IDE to compiled and deployed the `ArtRegistry` contract.
 
+<img width="412" alt="Screenshot 2023-04-24 at 8 37 29 PM" src="https://user-images.githubusercontent.com/112976523/234147805-a97cde14-d2f7-46fe-92c9-c57f3d59439d.png">
+
+
+
+<img width="845" alt="Screenshot 2023-04-24 at 8 38 02 PM" src="https://user-images.githubusercontent.com/112976523/234147772-220177b1-80d7-4d39-9077-f8fa0a62e3dd.png">
+
 
 ### 2. Prepare the Environment File
 
 In the .env file, `WEB3_PROVIDER_URI` has the value of the RPC Server field in Ganache. 
 For the `SMART_CONTRACT_ADDRESS` value, I used the address of the deployed contract in the Remix IDE. You can find it in the Deployed Contracts section.
 
+<img width="713" alt="Screenshot 2023-04-24 at 8 45 27 PM" src="https://user-images.githubusercontent.com/112976523/234147957-239d04dc-9605-4735-838d-c207f97eed98.png">
 
 
 ### 3. Build the dApp
@@ -54,9 +61,21 @@ For the `SMART_CONTRACT_ADDRESS` value, I used the address of the deployed contr
 
 5. Run the application by using `streamlit run app.py`.
     
+    <img width="1190" alt="Screenshot 2023-04-24 at 8 49 12 PM" src="https://user-images.githubusercontent.com/112976523/234148316-959ba099-7904-44c8-963f-17201568a416.png">
+
+    
     * Test functionality by typing relevant information in order to register your artwork and do an appraisal.
 
 ## And the Artwork is successfully registered and appraised.
+
+<img width="670" alt="Screenshot 2023-04-24 at 8 41 47 PM" src="https://user-images.githubusercontent.com/112976523/234148092-66973ca3-1e6e-48d8-9a64-ae2887bd7bd1.png">
+
+
+<img width="651" alt="Screenshot 2023-04-24 at 8 42 10 PM" src="https://user-images.githubusercontent.com/112976523/234148018-8f2c8fbc-eef2-413b-8dec-f161d19c73e9.png">
+
+<img width="659" alt="Screenshot 2023-04-24 at 8 42 19 PM" src="https://user-images.githubusercontent.com/112976523/234148047-f76e2734-ebd5-4b2d-aff9-2554cf4b66db.png">
+
+
 
 ## Created by: 
 
